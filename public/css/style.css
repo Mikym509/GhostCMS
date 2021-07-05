@@ -1,0 +1,790 @@
+.sideNav{
+    height: 100%;
+    width: 23.3%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-right:1px;
+    border-color: #E1E1E1;
+    overflow-x: hidden;
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom:0px;
+    border-style: solid;
+    display: block;
+    padding-right:-10%;
+}
+
+.listLinks{
+    z-index: 3;
+    height: auto;
+    transition:none;
+    width: 100%;
+    float: left;
+    visibility: visible;
+    overflow: inherit;
+    text-overflow: ellipsis;
+}
+
+.plusBtn:hover{
+    background-color:#E1E1E1;
+    border-radius: 20px;
+}
+
+.shareBtn{
+    position:absolute;
+    right:8%;
+}
+
+.shareBtn:hover{
+    background-color:#E1E1E1;
+    border-radius: 20px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 3vmin;
+}
+
+.Link{
+    font-weight: bold;
+    font-size:2.8vmin;
+    color:#A2A2A2;
+}
+
+.subLink{
+    font-size:2.3vmin;
+    font-weight: bold;
+    color:#A2A2A2;
+}
+
+.Link:hover, .subLink:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    height: 40px;
+}
+
+.tagLink{
+    padding-top:50px;
+}
+
+
+.homeLogo{
+    width:60%;
+}
+
+.viewSiteLogo{
+    width:60%;
+}
+
+.PostLogo{
+    width:60%;
+}
+
+.galleryLink{
+    padding-top: 12px;
+}
+
+.tagLogo{
+    width: 70%;
+}
+
+.galleryLogo{
+    width: 30px;
+}
+
+.inputForm{
+    width:100%;
+    height:55px;
+    border: 1px solid #E1E1E1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.rowEdit{
+    margin-top: 5%;
+}
+
+.cols{
+    text-align:left;
+}
+
+.inputFormEdit{
+    text-align: center;
+    width:70%;
+    height:55px;
+    border: 1px solid #E1E1E1;
+    border-top: 0px;
+    border-left:0px;
+    border-right: 0px;
+    padding: 10px;
+    font-size:3vmin;
+}
+
+.labelForm{
+    font-size:3vmin;
+    font-weight: bold;
+}
+
+.btnSign{
+    font-weight: bold;
+    background-color:#293133;
+    color: white;
+    width:70%;
+    border: 1px solid #E1E1E1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btnEdit{
+    font-weight: bold;
+    background-color:#293133;
+    color: white;
+    width:30%;
+    border: 1px solid #E1E1E1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btnSign:hover{
+    background-color:black;
+}
+
+.form-group{
+    margin-top: 3%;
+}
+
+.labelFormEdit{
+    font-size:2.8vmin;
+    padding-top:5%
+}
+
+.divFormLogin{
+    padding-top:11%;
+}
+
+.formGroupLogin{
+    padding-top:2%;
+}
+
+.logoutClass{
+    font-size: 2.8vmin;
+    color:black;
+    font-weight: bold;
+}
+
+.logoutClass:hover{
+    text-decoration: none;
+}
+
+.main {
+    margin-top: 2%;
+    margin-left: 24.2%;
+    margin-right: 1%;
+}
+
+.main .shareBtn:active {
+    margin-left: 0px;
+}
+
+.titleWelcome {
+    font-weight: bold;
+    font-size: 4vmin;
+}
+
+.imgMembers{
+    background-color: #FF007F;
+    border: 1px solid #E1E1E1;
+    padding: 4px;
+    border-radius: 10px;
+    height: 5vmin;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 1.7vmin;
+}
+
+.spanText{
+    font-weight: normal;
+    font-size: 1.4vmin;
+}
+
+.titleWelcomePage{
+    margin-top:3%;
+    font-weight: bold;
+    font-size: 2.8vmin;
+}
+
+.membersTitle{
+    font-size:1.5vmin;
+    border: 1px solid #8F8F8F;
+    border-top: 0px;
+    border-left:0px;
+    border-right: 0px;
+    font-weight:bold;
+}
+
+.tableMembers{
+    margin-top:6%;
+    margin-left:5%;
+    background-color: #EFEFEF;
+}
+
+.titleParagraph{
+    font-weight: bold;
+    font-size: 1.8vmin;
+}
+
+.textParagraph{
+    font-size: 1.6vmin;
+}
+
+.btn {
+    font-size: 1.4vmin;
+    display:inline-block;
+    padding:0.50em 1.5em;
+    border:0.1em solid black;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-weight: bold;
+    color: grey;
+    border-color: #D2D2D2;
+    border-width: 0.2px;
+    border-style: solid;
+}
+
+@media all and (max-width:0em) {
+    .btn {
+        display: block;
+    }
+}
+
+.Welcome{
+    text-align:center;
+    font-size: 4.5vmin;
+    font-weight:bold;
+}
+
+.titleLink{
+    color:black;
+}
+
+.titleLink:hover{
+    text-decoration:none;
+    color:black;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.divMidPage{
+    background-color:#293133;
+    text-align: center;
+}
+
+.divImage{
+    margin-top:5%;
+    padding-bottom: 4%;
+}
+
+.ttl{
+    font-weight: bold;
+}
+
+.newPostBtn{
+    background-color:black;
+    color:white;
+    border: 1px solid #8F8F8F;
+    padding: 8px;
+    font-size: 2vmin;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.newPostBtn:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.dropbtn {
+    background-color:white;
+    color: black;
+    padding: 10px;
+    font-size: 1.8vmin;
+    border:none;
+    border-radius:5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-size: 1.7vmin;
+    background-color:white;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+
+.tablePosts{
+    width: 100%;
+}
+
+.textTables{
+    font-size:2.5vmin;
+}
+
+.titleTabPosts,
+.dataTabPosts{
+    border: 1px solid #dddddd;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: left;
+}
+
+.titleCategoryPosts {
+    border: 1px solid #dddddd;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: opacity 0.3s 0.3s ease;
+    transition: opacity 0.3s 0.3s ease;
+    opacity: 0;
+}
+
+.dataCategoryPosts{
+    border: 1px solid #dddddd;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+.inputFormPost{
+    height: 10%;
+    font-size: 2.5vmin;
+    border-bottom: 1px solid  #dddddd;
+    border-top: 0px;
+    border-right:0px;
+    border-left:0px;
+    margin-top:2%;
+    width: 100%;
+    background-color:white;
+    margin-top:5%;
+}
+
+.inputFormPostDesc{
+    font-size: 2.5vmin;
+    border-bottom: 1px solid  #dddddd;
+    border-top: 0px;
+    border-right:0px;
+    border-left:0px;
+    margin-top:3%;
+    width: 100%;
+    background-color:white;
+    margin-top:5%;
+}
+
+.inputFormPost2{
+    font-size: 2.5vmin;
+    margin-top:3%;
+}
+
+.btnPost{
+    font-weight: bold;
+    font-size:3vmin;
+    margin-top:3%;
+    height:60px;
+    width:50%;
+    padding: 5px;
+    border: 1px solid #8F8F8F;
+    border-radius: 10px;
+    background: rgb(148,233,228);
+    background: radial-gradient(circle, rgba(148,233,228,0.13629201680672265) 0%, rgba(148,165,233,0.2091211484593838) 100%);
+}
+
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+
+.labelFile{
+    font-size: 2.5vmin;
+    padding: 5px;
+    border: 1px solid #8F8F8F;
+    background-color:#F7F7F7;
+    border-radius: 10px;
+}
+
+.comeBack{
+    font-weight:bold;
+    color:black;
+    font-size:2.5vmin;
+}
+
+.comeBack:hover{
+    text-decoration:none;
+    color:black;
+}
+
+.titlePost{
+    font-size: 3vmin;
+}
+
+.subDescriptionPostUser{
+    font-weight: bold;
+}
+
+.subDescriptionPost{
+    color:grey;
+    font-size:1.8vmin;
+}
+
+.typePost{
+    font-size: 2.5vmin;
+    padding: 4px;
+    background-color:#E1E1E1;
+    border-radius: 10px;
+}
+
+.typePost2{
+    font-size: 2.5vmin;
+    padding: 4px;
+    background-color:#FF007F;
+    border-radius: 10px;
+}
+
+.typePost3{
+    font-size: 2.5vmin;
+    padding: 4px;
+    background-color:#7FFF00;
+    border-radius: 10px;
+}
+
+.contPost{
+    margin-top:6%;
+    border: 1px solid #E1E1E1;
+}
+
+.rowPost{
+    margin-bottom:3%;
+    border: 1px solid #E1E1E1;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.linkPost{
+    color:#808080
+}
+
+.linkPost:hover{
+    color:black;
+    text-decoration:none;
+}
+
+.dropbtn2 {
+    font-size:3vmin;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color:white;
+}
+
+.dropdown2 {
+    position:relative;
+    right: 0px;
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:white;
+}
+
+.dropdown-content2 a {
+    text-align: center;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 2.3vmin;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.btnDelete{
+    background-color:white;
+    border: none;
+    font-size: 2.3vmin;
+}
+
+.btnDeleteGallery{
+    border: 1px solid #E1E1E1;
+    border-radius:50px;
+    background-color:#F7F7F7;
+}
+
+.titleGallery{
+    border: 1.5px solid #E1E1E1;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.rowOwner {
+    border: 1.5px solid #E1E1E1;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.containerImages {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height:auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.textTitleImageGallery {
+    font-size: 5vmin;
+    color: black;
+    padding: 16px 32px;
+}
+
+.tagTitlePost{
+    font-weight: bold;
+    font-size: 2.3vmin;
+    color: black;
+}
+
+.tagTitlePost:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.numberTagPost{
+    font-size: 2.3vmin;
+    color: #007fff;
+}
+
+.numberTagPost:hover{
+    color: #2a52be;
+    text-decoration: none;
+}
+
+.dataTabPosts:hover{
+    background-color: #f7f7f7;
+}
+
+.dropbtn3 {
+    border-radius: 50px;
+    background-color: white;
+}
+
+.dropbtn3:hover{
+    background-color:#EFEFEF;
+}
+
+
+.dropup-content3 {
+    border: 1.5px solid #E1E1E1;
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    bottom: 100%;
+    z-index: 1;
+}
+
+.dropup-content3 a {
+    font-size: 2vmin;
+    color: black;
+    padding: 2%;
+    text-decoration: none;
+    display: block;
+}
+
+.dropup-content3 a:hover {
+    background-color:#EFEFEF;
+}
+
+.dropup3:hover .dropup-content3 {
+    display: block;
+}
+
+.subEmail{
+    font-size: 1.5vmin;
+}
+
+.dropbtn4 {
+    font-weight: bold;
+    color: white;
+    border:none;
+    background-color:black;
+    border-radius: 10px;
+    cursor: pointer;
+    width:100%;
+    padding: 5px;
+}
+
+.dropbtn4:focus {
+    background-color:#E1E1E1;
+    color:black;
+}
+
+.dropdown4 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content4 {
+    margin-top: 5%;
+    display: none;
+    background-color:white;
+    position: absolute;
+    left: -40%;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content4 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.btnCategory,
+.btnGallery,
+.btnType{
+    border: 1.5px solid #E1E1E1;
+    background-color:#F7F7F7;
+    border-radius: 10px;
+    margin-top: 5%;
+    font-size: 2.5vmin;
+    padding: 4px;
+}
+
+.subTitleCategoryPosts{
+    padding: 10px;
+    font-size:2.5vmin;
+}
+
+.linkSubCategory{
+    font-weight: bold;
+    color:#8F8F8F
+}
+
+.linkSubCategory:hover{
+    text-decoration: none;
+    color: black;
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.colForm{
+    background-color:white;
+    border: 1.5px solid #E1E1E1;
+    padding:30px;
+    border-radius: 50px;
+    margin-top:3%;
+}
+
+.addImage{
+    background-color:white;
+    border: 1.5px solid #E1E1E1;
+    padding:30px;
+    border-radius: 50px;
+    margin-top:20%;
+}
